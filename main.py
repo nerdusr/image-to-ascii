@@ -15,7 +15,7 @@ x, y = img.shape
 # resize image to smaller
 img = cv2.resize(img, (x // 6, y // 6))
 
-#get new image width, height after resizing
+# get new image width, height after resizing
 x, y = img.shape
 
 # loop on image pixel and convert color number to ascii
